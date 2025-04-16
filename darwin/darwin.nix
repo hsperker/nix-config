@@ -22,7 +22,7 @@
   };
 
   users = {
-    knownUsers = [ ${user} ];
+    knownUsers = [ user ];
     users.${user}.uid = 501;
     users.${user}.shell = pkgs.fish;
   };
