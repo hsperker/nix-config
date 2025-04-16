@@ -71,6 +71,10 @@ darwin-rebuild switch --flake ~/src/github.com/hsperker/nix-config
 ### Window Management (Aerospace)
 - `Alt + h/j/k/l`: Focus windows
 - `Alt + Shift + h/j/k/l`: Move windows
+- `Alt + Ctrl + h/j/k/l`: Join with adjacent window
+- `Alt + y`: Tile layout (horizontal/vertical)
+- `Alt + t`: Accordion layout (horizontal/vertical)
+- `Alt + minus/equal`: Resize window (-/+ 100)
 - `Alt + 1/2/3`: Switch workspaces
 - `Alt + Shift + 1/2/3`: Move window to workspace
 - `Alt + Tab`: Switch between workspaces
@@ -82,6 +86,12 @@ darwin-rebuild switch --flake ~/src/github.com/hsperker/nix-config
 - `r`: Flatten workspace tree
 - `f`: Toggle floating/tiling layout
 - `Backspace`: Close all windows except current
+
+## Open Points
+
+- [ ] Manage dock items
+- [ ] Add apps like Alfred to login
+- [ ] Configure browser
 
 ## Contributing
 
