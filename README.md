@@ -27,6 +27,7 @@ My personal Nix configuration for macOS, featuring a modern development environm
 - macOS (Apple Silicon)
 - [Nix](https://nixos.org/download.html) with flakes enabled
 - [direnv](https://direnv.net/) for automatic environment loading
+- [brew](https://brew.sh/) in allow installation via homebrew.
 
 ## Installation
 
