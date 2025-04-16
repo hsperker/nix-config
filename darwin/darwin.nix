@@ -204,6 +204,9 @@
           "IncludeDevelopMenu" = true;
           "WebKitDeveloperExtrasEnabledPreferenceKey" = true;
           "com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled" = true;
+          "HomePage" = "about:blank";
+          "NewWindowBehavior" = 1;
+          "NewTabBehavior" = 1;
         };
         "com.apple.print.PrintingPrefs" = {
           "Quit When Finished" = true;
