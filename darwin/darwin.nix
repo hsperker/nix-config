@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, user, ... }:
 
 {
   # List packages installed in system profile. To search by name, run:
@@ -131,9 +131,9 @@
         PMPrintingExpandedStateForPrint = true;
         # Save to disk (not to iCloud) by default
         NSDocumentSaveNewDocumentsToCloud = false;
-        # Disable smart quotes as they’re annoying when typing code
+        # Disable smart quotes as they're annoying when typing code
         NSAutomaticQuoteSubstitutionEnabled = false;
-        # Disable smart dashes as they’re annoying when typing code
+        # Disable smart dashes as they're annoying when typing code
         NSAutomaticDashSubstitutionEnabled = false;
         # Disable press-and-hold for keys in favor of key repeat
         ApplePressAndHoldEnabled = false;
