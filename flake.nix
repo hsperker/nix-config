@@ -36,11 +36,7 @@
       darwin.lib.darwinSystem {
         system = arch;
         modules = [
-          {
-            _file = ./darwin/darwin.nix;
-            imports = [ ./darwin/darwin.nix ];
-            user = user;
-          }
+          ./darwin/darwin.nix
           home-manager.darwinModules.home-manager
           {
             _module.args = { inherit inputs; };

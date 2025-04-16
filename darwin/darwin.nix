@@ -22,9 +22,9 @@
   };
 
   users = {
-    knownUsers = [ user ];
-    users.${user}.uid = 501;
-    users.${user}.shell = pkgs.fish;
+    knownUsers = [ "hans" ];
+    users.hans.uid = 501;
+    users.hans.shell = pkgs.fish;
   };
 
   # Used for backwards compatibility, please read the changelog before changing.
