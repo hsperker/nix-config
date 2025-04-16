@@ -110,6 +110,7 @@
       "alfred"
       "homerow"
       "chatgpt"
+      "wezterm"
     ];
 
     # Install apps I payed for
